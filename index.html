@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vacation Suggestions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="main-logo">
+          <h2><strong>Vacation Suggestions</strong></h1>
+        </div>
+      </div>
+    </header>
+    <div class="main-jumb">
+      <div class="container">
+        <h2 class="tagline">Find Your Perfect Vacation.<h2>
+        <p class="sub-tagline">Are you ready for a vacation but not sure where to go?</p>
+        <p class="sub-tagline">Just answer a few questions below and we will help you find a perfect place.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Questions</h2>
+          <form>
+            <div id="international-question">
+              <h4>1. Would you like to travel outside of United States?</h4>
+              <label class="radio-inline">
+                <input type="radio" name="international" id="international-answer1" value="inside-usa" checked>
+                 Yes
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="international" id="international-answer2" value="outside-usa">
+                 No
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="international" id="international-answer3" value="in-n-out-usa">
+                 It Does Not Matter
+              </label>
+            </div>
+
+            <div id="budget-question">
+              <h4>2. How much are you planning to spend on this trip?</h4>
+              <label class="radio-inline">
+                <input type="radio" name="budget" id="budget-answer1" value="u5" checked>
+                 Less then $5,000
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="budget" id="budget-answer2" value="f5to15">
+                 $5,000 to $15,000
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="budget" id="budget-answer3" value="a15">
+                 More then $15,000
+              </label>
+            </div>
+
+            <div id="season-question">
+              <h4>3. When do you plan to travel?</h4>
+              <label class="radio-inline">
+                <input type="radio" name="season" id="season-answer1" value="winter" checked>
+                 Winter
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="season" id="season-answer2" value="spring">
+                 Spring
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="season" id="season-answer3" value="summer">
+                 Summer
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="season" id="season-answer4" value="fall">
+                 Fall
+              </label>
+            </div>
+
+            <div id="travel-with-question">
+              <h4>4. Are you traveling:</h4>
+              <label class="radio-inline">
+                <input type="radio" name="travel-with" id="travel-with-answer1" value="alone" checked>
+                 Alone
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="travel-with" id="travel-with-answer2" value="friends">
+                 With Friends
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="travel-with" id="travel-with-answer3" value="family">
+                 With Family
+              </label>
+            </div>
+
+            <div id="preference-question">
+              <h4>5. What do you prefer more?</h4>
+              <label class="radio-inline">
+                <input type="radio" name="preference" id="preference-answer1" value="relax" checked>
+                 Relaxing on the Beach
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="preference" id="preference-answer2" value="explore">
+                 Exploring a City
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="preference" id="preference-answer3" value="advanture">
+                 Activity and Advanture
+              </label>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Tell Me Where To Go</button>
+          </form>
+        </div>
+        <div id="suggestion" class="col-md-5">
+          <h2>Suggestion</h2>
+          <h4>Based on the answers you provided, we recommend you to visit <span id="result"></span>.</h4>
+          <h5>It's a great place and we are sure that you will love it there.</h5>
+          <h5>Check out <a href="https://www.expedia.com/">Expedia</a> for some great deals.</h5>
+        </div>
+      </div>
+    <hr>
+    <footer>
+      <div class="container">
+        <p>&copy; 2016 Vacation Suggestions by Slavik Migovich</p>
+      </div>
+    </footer>
+  </body>
+</html>
