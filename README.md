@@ -6,7 +6,7 @@
 
 ##Description
 
-GitHub Pages Link: https://slav4477.github.io//
+GitHub Pages Link: https://slav4477.github.io/vacation-suggestions/
 _This website will help find a perfect place for the perfect vacation._
 
 ##Setup/Installation Requirements
