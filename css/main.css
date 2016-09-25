@@ -1,0 +1,54 @@
+/* Main CSS - Home Page
+======================*/
+#suggestion {
+  display: none;
+}
+
+body {
+  background-color: #C3DAE3;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #00CBE9;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+.main-logo {
+  padding-bottom : 10px;
+}
+
+.main-jumb {
+  width: 100%;
+  height: 300px;
+  background:  #F0F8FF url('../img/beach.jpg') no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.tagline {
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+.sub-tagline {
+  padding-left: 2em;
+  font-size: .55em;
+}
+
+form > * {
+  margin-bottom: 35px;
+}
